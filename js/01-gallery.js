@@ -26,17 +26,29 @@ function createImageCardMark(galleryItems) {
         .join('');
 };
 
-function onPaletteContainerClick(evt) {
-    if (evt.target.classList.contains('.gallery')) {
-        return
+function onPaletteContainerClick (event){
+    event.preventDefault();
+    const isImage = event.target.classList.contains("gallery__image");
+    if (!isImage) { 
+        return;
     }
-    // const onPaletteContainerClick = event.target.dataset.image;
-    // output.textContent = `Url: ${onPaletteContainerClick}`;
-    // output.style.color = onPaletteContainerClick;
 
-    console.log(evt.target);
+
+    
+const modal = basicLightbox.create(`
+    <div class="modal">
+<img src= "${event.target.dataset.source}" class= "js-image" width="800" height="600">
+    </div>
+`);
+modal.show();
+window.addEventListener('keydown', onKeyboardClick);
+function onKeyboardClick(event){
+        if(event.code === 'Escape'){
+        modal.close();
+        window.removeEventListener('keydown', onKeyboardClick);
+    }
+    }
 };
-
 
 
 
