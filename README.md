@@ -31,3 +31,7 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
 1. Створення і рендер розмітки на підставі масиву даних `galleryItems` і
    наданого шаблону елемента галереї.
 2. Реалізація делегування на `ul.gallery` і отримання `url` великого зображення.
+3. Підключення скрипту і стилів бібліотеки модального вікна
+   [basicLightbox](https://basiclightbox.electerious.com/). Використовуй
+   [CDN сервіс jsdelivr](https://www.jsdelivr.com/package/npm/basiclightbox?path=dist)
+   і додай у проект посилання на мініфіковані (`.min`) файли бібліотеки.
