@@ -47,3 +47,16 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
 Посилання на оригінальне зображення повинно зберігатися в data-атрибуті `source`
 на елементі `<img>`, і вказуватися в `href` посилання. Не додавай інші HTML теги
 або CSS класи, крім тих, що містяться в цьому шаблоні.
+
+```html
+<ul class="gallery__item">
+  <a class="gallery__link" href="large-image.jpg">
+    <img
+      class="gallery__image"
+      src="small-image.jpg"
+      data-source="large-image.jpg"
+      alt="Image description"
+    />
+  </a>
+</ul>
+```
