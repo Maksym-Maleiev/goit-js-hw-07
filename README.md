@@ -38,3 +38,6 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
 4. Відкриття модального вікна по кліку на елементі галереї. Для цього ознайомся
    з [документацією](https://github.com/electerious/basicLightbox#readme) і
    [прикладами](https://basiclightbox.electerious.com/).
+5. Заміна значення атрибута `src` елемента `<img>` в модальному вікні перед
+   відкриттям. Використовуй готову розмітку модального вікна із зображенням з
+   прикладів бібліотеки [basicLightbox](https://basiclightbox.electerious.com/).
