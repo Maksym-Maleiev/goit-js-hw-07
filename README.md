@@ -85,3 +85,11 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
 https://user-images.githubusercontent.com/17479434/127714821-4b7527c8-01db-42d3-83f0-8c1578561982.mp4
 
 Необхідно трохи змінити розмітку картки галереї, використовуй цей шаблон.
+
+```html
+<li class="gallery__item">
+  <a class="gallery__link" href="large-image.jpg">
+    <img class="gallery__image" src="small-image.jpg" alt="Image description" />
+  </a>
+</li>
+```
