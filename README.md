@@ -35,3 +35,6 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
    [basicLightbox](https://basiclightbox.electerious.com/). Використовуй
    [CDN сервіс jsdelivr](https://www.jsdelivr.com/package/npm/basiclightbox?path=dist)
    і додай у проект посилання на мініфіковані (`.min`) файли бібліотеки.
+4. Відкриття модального вікна по кліку на елементі галереї. Для цього ознайомся
+   з [документацією](https://github.com/electerious/basicLightbox#readme) і
+   [прикладами](https://basiclightbox.electerious.com/).
