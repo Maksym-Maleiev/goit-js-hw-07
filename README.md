@@ -100,3 +100,7 @@ https://user-images.githubusercontent.com/17479434/127714821-4b7527c8-01db-42d3-
 1. Створення і рендер розмітки на підставі масиву даних `galleryItems` і
    наданого шаблону елемента галереї. Використовуй готовий код з першого
    завдання.
+2. Підключення скрипту і стилів бібліотеки, використовуючи
+   [CDN сервіс cdnjs](https://cdnjs.com/libraries/simplelightbox). Необхідно
+   додати посилання на два файли: `simple-lightbox.min.js` і
+   `simple-lightbox.min.css`.
