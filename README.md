@@ -93,3 +93,6 @@ https://user-images.githubusercontent.com/17479434/127714821-4b7527c8-01db-42d3-
   </a>
 </li>
 ```
+
+Виконуй це завдання у файлах `02-lightbox.html` і `02-lightbox.js`. Розбий його
+на декілька підзавдань:
