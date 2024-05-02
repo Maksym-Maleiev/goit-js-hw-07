@@ -74,3 +74,5 @@ https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-
 щоб прослуховування клавіатури було тільки доти, доки відкрите модальне вікно.
 Бібліотекаи [basicLightbox](https://basiclightbox.electerious.com/) містить
 метод для програмного закриття модального вікна.
+
+## Завдання 2 - бібліотека `SimpleLightbox`
